@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css?family=Questrial");
+
+body {
+  font-family: "Questrial", sans-serif;
+}
+
+#pointer-type-text {
+  padding-top: 5vh;
+  text-align: center;
+  font-size: 2em;
+}
+
+.full-screen {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+.hide {
+  opacity: 0;
+}
+
+#select-wheel {
+  transition: 500ms;
+  transition-property: opacity;
+}
+
+circle {
+  fill: url(#select-gradient);
+}
+
+line {
+  stroke: rgb(24, 24, 24);
+  stroke-width: 3;
+}
+
+text {
+  fill: rgb(126, 126, 126);
+  transition: 200ms;
+}
+
+.highlighted {
+  fill: black;
+}

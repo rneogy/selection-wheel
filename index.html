@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div id="pointer-type-text">
+      Pointer Type: <span id="pointer-type">Select</span>
+    </div>
+    <svg class="full-screen">
+      <radialGradient id="select-gradient">
+        <stop
+          offset="0%"
+          style="stop-color:rgb(146, 146, 146);
+          stop-opacity:0.5"
+        />
+        <stop
+          offset="70%"
+          style="stop-color:rgb(146, 146, 146);
+          stop-opacity:0.4"
+        />
+        <stop
+          offset="100%"
+          style="stop-color:rgb(146, 146, 146);stop-opacity:0"
+        />
+      </radialGradient>
+      <g id="select-wheel" class="hide">
+        <circle cx="0" cy="0" r="150" />
+      </g>
+    </svg>
+    <script src="index.js"></script>
+  </body>
+</html>
