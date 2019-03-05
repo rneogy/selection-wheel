@@ -34,6 +34,7 @@ circle {
 line {
   stroke: rgb(24, 24, 24);
   stroke-width: 3;
+  transition: 200ms;
 }
 
 text {
@@ -41,6 +42,10 @@ text {
   transition: 200ms;
 }
 
-.highlighted {
+text.highlighted {
   fill: black;
+}
+
+line.highlighted {
+  stroke-width: 5;
 }
